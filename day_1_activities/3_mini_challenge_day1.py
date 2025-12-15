@@ -37,8 +37,50 @@
     #    - Primary Email
     #    - Secondary Email
 
+id= input(" What is your CPS ID?")
+for student in student:
+    if id == student['CPS ID']:
+        print(student[' CPS ID'])
+
+First_name= input(" What is your first name")
+for student in student:
+    if First_name == student['First name']:
+        print(student[' First name'])
+
+Last_name= input(" What is your last name")
+for student in student: 
+    if Last_name== student[ 'Last name ']:
+        print(student[' Last name'])
+
+Middle_Name= input(" What is your middle name")
+for student in student:
+    if Middle_Name == student[' Middle name']:
+        print(student[ ' Middle name'])
+
+Homeroom= input( " What is your Homeroom")
+for student in student:
+    if Homeroom in student[' Homeroom']:
+        print(student[ ' Homeroom'])
+
+Grade_Level= input( " What is your grade level")
+for student in student:
+    if Grade_Level == student[' Grade Level']:
+        print(student[' Grade level'])
+
+Primary_Email= input(" What is your Primary Email")
+for student in student:
+    if Primary_Email in student[" Primary Email"]:
+        print(student[ 'Primary Email'])
+
+Secondary_Email= input(" What is your secondary email")
+for student in student:
+    if Secondary_Email in student[' Secondary Email']:
+        print(student[ ' Secondary Email'])
+
 # 2. Combine the First and Last name into this format:
     #    "Last, First"  
+
+
 
 # 3. Store all of the new information into ONE dictionary
     #    that matches the structure of the existing student data.
