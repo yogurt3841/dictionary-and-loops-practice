@@ -80,10 +80,13 @@ for student in student:
 # 2. Combine the First and Last name into this format:
     #    "Last, First"  
 
+User_information["Email", : "Secondary", "Email",: "Primary", "level", : "grade", "Homeroom", "Name", : "Middle"
+                 "Name", : "Last", "Name", : "First", "ID", : "CPS"]
 
 
 # 3. Store all of the new information into ONE dictionary
     #    that matches the structure of the existing student data.
+     
 
 # 4. Add (append) that new dictionary into the main students list.
 
